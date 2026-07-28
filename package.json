@@ -1,0 +1,15 @@
+{
+  "name": "alex-matulay-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal portfolio landing page for alex-matulay.github.io",
+  "scripts": {
+    "build": "node scripts/build-portfolio.mjs",
+    "shots": "node scripts/screenshot.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.49.1",
+    "sharp": "0.33.5"
+  }
+}

@@ -1,0 +1,51 @@
+name: Update Portfolio
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch: {}
+
+# Pages for this repo serves legacy-style from the main branch root, so pushing
+# the regenerated data + thumbnails is all that's needed — Pages redeploys itself.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-portfolio
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium for screenshots
+        run: npx playwright install --with-deps chromium
+
+      - name: Rebuild apps.json (descriptions + push times)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-portfolio.mjs
+
+      - name: Refresh screenshots
+        run: node scripts/screenshot.mjs
+
+      - name: Commit and push if anything changed
+        run: |
+          if git diff --quiet -- data/apps.json assets/thumbs; then
+            echo "No portfolio changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/apps.json assets/thumbs
+          git commit -m "chore: refresh portfolio data & screenshots ($(date -u +%Y-%m-%d))"
+          git push

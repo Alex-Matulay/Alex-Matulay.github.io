@@ -2,10 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0;url=https://alex-matulay.github.io/chessmaster/">
-  <title>Redirecting to ChessMaster...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Matulay — Projects</title>
+  <meta name="description" content="A collection of small, self-updating web apps by Alex Matulay — chess, markets, cycling, movies, and more.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <p>Redirecting to <a href="https://alex-matulay.github.io/chessmaster/">ChessMaster</a>...</p>
+  <header class="site-header">
+    <h1>Alex Matulay</h1>
+    <p class="subtitle">Small, self-updating web apps — each one rebuilt automatically from live data.</p>
+  </header>
+
+  <main>
+    <section class="grid" id="grid" aria-live="polite">
+      <p class="loading" id="loading">Loading projects…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Built with vanilla HTML, CSS &amp; JS, hosted on GitHub Pages ·
+      <a href="https://github.com/Alex-Matulay" target="_blank" rel="noopener">github.com/Alex-Matulay</a>
+    </p>
+    <p class="freshness-note">Each badge shows how recently that app last refreshed its data.</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
