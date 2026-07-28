@@ -1,0 +1,79 @@
+{
+  "owner": "Alex-Matulay",
+  "apps": [
+    {
+      "name": "Chess Pulse",
+      "repo": "chess-pulse",
+      "url": "https://alex-matulay.github.io/chess-pulse/",
+      "tagline": "Chess news, live top-10 leaderboard, and the daily Lichess puzzle — refreshed hourly.",
+      "emoji": "♟️",
+      "accent": "#4f9d69",
+      "cadence": "hourly",
+      "freshness": {
+        "url": "https://alex-matulay.github.io/chess-pulse/data/news.json",
+        "field": "updated"
+      }
+    },
+    {
+      "name": "Volume Scanner",
+      "repo": "volume-scanner",
+      "url": "https://alex-matulay.github.io/volume-scanner/",
+      "links": [
+        { "label": "End of day", "url": "https://alex-matulay.github.io/volume-scanner/" },
+        { "label": "Intraday", "url": "https://alex-matulay.github.io/volume-scanner/intraday.html" }
+      ],
+      "tagline": "Screens the whole US market for unusual trading volume (RVOL) and ranks the movers.",
+      "emoji": "📈",
+      "accent": "#3b82f6",
+      "cadence": "intraday",
+      "freshness": {
+        "url": "https://alex-matulay.github.io/volume-scanner/intraday.json",
+        "field": "generated_ms"
+      }
+    },
+    {
+      "name": "Movie Night Matchmaker",
+      "repo": "movie-night-picker",
+      "url": "https://alex-matulay.github.io/movie-night-picker/",
+      "tagline": "A quiz that picks what two people should watch tonight. Catalog auto-updates weekly.",
+      "emoji": "🎬",
+      "accent": "#a855f7",
+      "cadence": "weekly",
+      "freshness": {
+        "url": "https://alex-matulay.github.io/movie-night-picker/data/titles.json",
+        "field": "updated"
+      }
+    },
+    {
+      "name": "Cycling News Hub",
+      "repo": "cycling-news-hub",
+      "url": "https://alex-matulay.github.io/cycling-news-hub/",
+      "tagline": "Cycling headlines plus London's hour-by-hour ride weather.",
+      "emoji": "🚴",
+      "accent": "#f59e0b",
+      "cadence": "hourly",
+      "freshness": {
+        "url": "https://alex-matulay.github.io/cycling-news-hub/data/news.json",
+        "field": "updated"
+      }
+    },
+    {
+      "name": "ChessMaster",
+      "repo": "chessmaster",
+      "url": "https://alex-matulay.github.io/chessmaster/",
+      "tagline": "A beginner chess course: interactive lessons on openings, tactics, and endgames.",
+      "emoji": "♚",
+      "accent": "#8c1c2c",
+      "cadence": "static"
+    },
+    {
+      "name": "Fortune Cookie",
+      "repo": "fortune-cookie",
+      "url": "https://alex-matulay.github.io/fortune-cookie/",
+      "tagline": "Crack open a virtual cookie for one of 365 fortunes — one for every day of the year.",
+      "emoji": "🥠",
+      "accent": "#d9a04f",
+      "cadence": "static"
+    }
+  ]
+}
