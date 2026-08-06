@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T08:42:33.273Z",
+  "generated": "2026-08-06T08:43:49.857Z",
   "owner": "Alex-Matulay",
   "apps": [
     {
@@ -15,7 +15,7 @@
         "url": "https://alex-matulay.github.io/chess-pulse/data/news.json",
         "field": "updated"
       },
-      "pushedAt": "2026-08-05T06:26:13Z",
+      "pushedAt": "2026-08-06T08:27:13Z",
       "description": "Daily-updated chess news site on GitHub Pages",
       "thumb": "assets/thumbs/chess-pulse.webp"
     },
@@ -41,7 +41,7 @@
         "url": "https://alex-matulay.github.io/volume-scanner/intraday.json",
         "field": "generated_ms"
       },
-      "pushedAt": "2026-08-04T22:54:20Z",
+      "pushedAt": "2026-08-05T22:52:36Z",
       "description": "",
       "thumb": "assets/thumbs/volume-scanner.webp"
     },
