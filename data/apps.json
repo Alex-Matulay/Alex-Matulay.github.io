@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T07:40:26.363Z",
+  "generated": "2026-08-14T07:38:01.847Z",
   "owner": "Alex-Matulay",
   "apps": [
     {
@@ -41,7 +41,7 @@
         "url": "https://alex-matulay.github.io/volume-scanner/intraday.json",
         "field": "generated_ms"
       },
-      "pushedAt": "2026-08-12T22:33:38Z",
+      "pushedAt": "2026-08-13T22:46:44Z",
       "description": "",
       "thumb": "assets/thumbs/volume-scanner.webp"
     },
