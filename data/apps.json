@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T06:46:17.306Z",
+  "generated": "2026-08-17T07:03:24.318Z",
   "owner": "Alex-Matulay",
   "apps": [
     {
@@ -58,7 +58,7 @@
         "url": "https://alex-matulay.github.io/movie-night-picker/data/titles.json",
         "field": "updated"
       },
-      "pushedAt": "2026-08-10T07:41:58Z",
+      "pushedAt": "2026-08-17T06:55:40Z",
       "description": "Quiz-based movie & series picker for couples who can't decide what to watch. Catalog auto-updates weekly.",
       "thumb": "assets/thumbs/movie-night-picker.webp"
     },
