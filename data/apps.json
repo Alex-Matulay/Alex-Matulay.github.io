@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T10:58:20.542Z",
+  "generated": "2026-09-21T12:24:45.465Z",
   "owner": "Alex-Matulay",
   "apps": [
     {
@@ -15,7 +15,7 @@
         "url": "https://alex-matulay.github.io/chess-pulse/data/news.json",
         "field": "updated"
       },
-      "pushedAt": "2026-09-20T10:30:56Z",
+      "pushedAt": "2026-09-21T11:49:49Z",
       "description": "Daily-updated chess news site on GitHub Pages",
       "thumb": "assets/thumbs/chess-pulse.webp"
     },
@@ -58,7 +58,7 @@
         "url": "https://alex-matulay.github.io/movie-night-picker/data/titles.json",
         "field": "updated"
       },
-      "pushedAt": "2026-09-14T12:00:48Z",
+      "pushedAt": "2026-09-21T12:11:15Z",
       "description": "Quiz-based movie & series picker for couples who can't decide what to watch. Catalog auto-updates weekly.",
       "thumb": "assets/thumbs/movie-night-picker.webp"
     },
