@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T12:10:22.396Z",
+  "generated": "2026-10-11T12:24:40.526Z",
   "owner": "Alex-Matulay",
   "apps": [
     {
@@ -15,7 +15,7 @@
         "url": "https://alex-matulay.github.io/chess-pulse/data/news.json",
         "field": "updated"
       },
-      "pushedAt": "2026-10-10T08:00:57Z",
+      "pushedAt": "2026-10-11T10:31:33Z",
       "description": "Daily-updated chess news site on GitHub Pages",
       "thumb": "assets/thumbs/chess-pulse.webp"
     },
