@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T13:42:16.730Z",
+  "generated": "2026-11-16T15:17:06.863Z",
   "owner": "Alex-Matulay",
   "apps": [
     {
@@ -15,7 +15,7 @@
         "url": "https://alex-matulay.github.io/chess-pulse/data/news.json",
         "field": "updated"
       },
-      "pushedAt": "2026-11-15T07:28:38Z",
+      "pushedAt": "2026-11-16T07:34:38Z",
       "description": "Daily-updated chess news site on GitHub Pages",
       "thumb": "assets/thumbs/chess-pulse.webp"
     },
@@ -41,7 +41,7 @@
         "url": "https://alex-matulay.github.io/volume-scanner/intraday.json",
         "field": "generated_ms"
       },
-      "pushedAt": "2026-11-14T01:55:44Z",
+      "pushedAt": "2026-11-16T15:10:56Z",
       "description": "",
       "thumb": "assets/thumbs/volume-scanner.webp"
     },
@@ -58,7 +58,7 @@
         "url": "https://alex-matulay.github.io/movie-night-picker/data/titles.json",
         "field": "updated"
       },
-      "pushedAt": "2026-11-09T15:25:12Z",
+      "pushedAt": "2026-11-16T15:00:16Z",
       "description": "Quiz-based movie & series picker for couples who can't decide what to watch. Catalog auto-updates weekly.",
       "thumb": "assets/thumbs/movie-night-picker.webp"
     },
